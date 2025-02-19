@@ -9,6 +9,6 @@ db()
 app.use(express.json())
 app.use("/todo",toDoRouter)
 app.get('/', function (req, res) {
-    res.send('Hello World')
+    res.send('Versel Link - https://product-page-host-gnd2.vercel.app/ and Render Link https://express-02-1nvz.onrender.com')
   })
 app.listen(port, () => console.log(`Server running on port: http://localhost:${port}`));
